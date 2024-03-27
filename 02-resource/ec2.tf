@@ -1,8 +1,18 @@
 resource "aws_instance" "frontend" {
-    ami = "ami-01770af15e887950c"
-    instance_type = "t2.medium"
+    ami = var.ami
+    instance_type = var.instance_type
   
   tags = {
     Name = "frondend"
   }
+}
+
+variable "instance_type" {
+    default = "t2.medium"
+  
+}
+
+variable "ami" {
+    default = "ami-01770af15e887950c"
+  
 }
