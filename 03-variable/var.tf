@@ -26,3 +26,10 @@ output "z" {
     value = var.z_mab
   
 }
+
+variable "env" {}
+
+output "env" {
+    value = var.env
+  
+}
