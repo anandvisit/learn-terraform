@@ -6,4 +6,5 @@ resource "aws_instance" "moduledemo" {
       Name = var.tags
     }
   
+
 }
