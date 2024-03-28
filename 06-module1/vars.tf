@@ -1,13 +1,13 @@
-variable "instance_type" {
- default = "t2.micro"
+# variable "instance_type" {
+#  default = "t2.micro"
 
-}
-variable "ami" {
-    default = "ami-01770af15e887950c"
+# }
+# variable "ami" {
+#     default = "ami-01770af15e887950c"
    
   
-}
+# }
 
-variable "tags" { 
- default = "vartag"
-}
+# variable "tags" { 
+#  default = "vartag"
+# }
