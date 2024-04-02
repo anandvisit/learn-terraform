@@ -1,8 +1,8 @@
-resource "aws_instance" "moduledemo" {
+resource "aws_instance" "" {
     ami = var.imageid
     instance_type = var.instance_type
-  ##  security_groups = var.security_group_name
-    vpc_security_group_ids = var.security_group_name
+    security_groups = var.aws_security_group
+ 
    
     tags = {
       Name = var.tags

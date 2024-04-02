@@ -4,7 +4,7 @@ data "aws_vpc" "selected" {
 }
 
 data "aws_security_group" "ec2_sg" {
-    id = var.security_group_name
+    id = var.aws_security_group
 
   
 }

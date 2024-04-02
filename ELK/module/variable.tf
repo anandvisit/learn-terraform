@@ -15,9 +15,10 @@ variable "tags" {
 variable "imageid" {
   type = string
 }
-variable "security_group_name" {
-}
 
 variable "vpc_id" {
+  
+}
+variable "aws_security_group" {
   
 }
