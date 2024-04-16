@@ -1,1 +1,1 @@
-bucket_name = "my_first_bucket_onpassive"
+bucket_name = "myanandbkt"
